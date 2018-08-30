@@ -1,0 +1,551 @@
+﻿body 
+{
+	text-align:center;
+	background-repeat:repeat-x;
+	font-size:15pt;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom:0px;	
+	background-repeat: repeat-x;
+	font-size: 9pt;
+
+
+}
+.mainbody 
+{
+	text-align:center;
+	background-repeat:repeat-x;
+	font-size:15pt;
+	background-color:#deeed4;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom:0px;	
+	background-repeat: repeat-x;
+	font-size: 9pt;
+
+
+}
+.nbody 
+{
+	text-align:center;
+	background-repeat:repeat-x;
+	font-size:15pt;
+	background-color:#EEF8FF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom:0px;	
+	background-repeat: repeat-x;
+	font-size: 9pt;
+
+
+}
+.body 
+{
+	text-align:center;
+	background-repeat:repeat-x;
+	font-size:15pt;
+	background-color:#EEF8FF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom:0px;	
+	background-repeat: repeat-x;
+	font-size: 9pt;
+
+
+}
+/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : inherit;
+	color : windowtext;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+    font-size:0.9em;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #ffff99;
+	color: black;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+/* Content Page Layout */
+.demoarea {
+	padding:20px;
+	background:#FFF url(images/demotop.png) no-repeat left top;
+}
+
+.demoarea p 
+{
+	padding:5px;
+}
+
+.demoheading {
+	padding-bottom:20px;
+	color:#5377A9;
+	font-family:Arial, Sans-Serif;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.demobottom {
+	height:8px;
+	background:#FFF url(images/demobottom.png) no-repeat left bottom;
+}
+
+
+.heading {
+	padding: 1em 0 1em 0;
+	color:#5377A9;
+	font-family:Arial, Sans-Serif;
+	font-weight:bold;
+	font-size:1.2em;
+}
+
+.subheading{
+	padding:.8em 0 0.5em 0;
+	color:#0F2543;
+	font-weight:bold;
+	font-family:Arial, Sans-Serif;
+	font-size:1.1em;
+}
+
+p {}
+
+em {font-style:italic}
+
+i {font-style: italic;}
+
+strong {font-weight:bold;}
+
+.codeReference
+{
+	font-family: 'Courier New', Monospace;
+	font-style: normal;
+	font-weight: bold;
+}
+
+pre, code {
+	display:block;
+	margin:15px 15px 15px 0;
+	padding:10px;
+	border:1px dashed #CCC;
+	background-color:#FFF;
+	color:#000;
+	font-family:'Courier New', Monospace;
+	font-size:0.9em;
+	font-style:normal;
+}
+
+.releaseList {
+	list-style-type:disc;
+}
+
+
+
+/*左框架树背景色*/
+.tree_bgcolor
+{
+	background-color:#EEF8FF;	
+}
+/*左框架树背景图*/
+.leftbj_bgimage 
+{
+	background-image: url(../../images/left-bj.gif);	
+}
+.left1_bgimage
+{
+	background-image: url(../../images/left-1.gif);	
+}
+.left2_bgimage
+{
+	background-image: url(../../images/left-2.gif);	
+}
+.left3_bgimage
+{
+	background-image: url(../../images/left-3.gif);	
+}
+
+/*分隔块色*/
+.spliter_color
+{
+	background-color:#1D9FC0;	
+}
+
+/*顶框背景图片*/
+.top1_bgimage
+{
+	background-image: url(../../images/top-1.gif);
+}
+.top2_bgimage
+{
+	background-image: url(../../images/top-2.gif);
+}
+.top3_bgimage
+{
+	background-image: url(../../images/top-3.gif);
+}
+.top4_bgimage
+{
+	background-image: url(../../images/top-4.gif);
+}
+.top5_bgimage
+{
+	background-image: url(../../images/top-5.gif);
+}
+.topbj_bgimage
+{
+	background-image: url(../../images/top-bj.gif);
+}
+
+/*顶框工具条背景图片*/
+.topbar_bgimage
+{
+	background-image: url(../../images/topbar_01.jpg);
+}
+
+
+.border
+{
+	border:1px #189fd6 solid;
+	margin:20px 0;	
+	width:1px;
+}
+/*用来装载各个控件的Table*/
+.container
+{
+	width:946px;
+	font-size:10pt;
+	margin:0;
+}
+
+.container td
+{
+	padding: 2px 0;
+	
+}
+
+.titleList
+{
+	width:100px;
+	padding:2px 0;
+	text-align: right;
+}
+
+.ctrlList
+{
+	width:120px;
+	padding:2px 0;
+	text-align: left;
+}
+
+/*Table两侧的边的宽度*/
+.LeftandRight
+{
+	width:80px;
+	padding:2px 0;
+}
+
+.Middle
+{
+	padding:2px 0;
+}
+
+/*DropDownList*/
+.mDropDownList
+{
+	width:172px;
+	height:25px;
+	float:left;
+}
+
+/*TextBox*/
+.mTextBox
+{
+	float:left;	
+}
+.mTextBox2
+{
+	width:195px;
+	height:15px;	
+	border-bottom:0px;
+	border-left:0px;
+	border-right:0px;
+	border-top:0px;
+	text-align:left;			
+	background-color:GhostWhite;
+}
+
+/*Label*/
+.mLabel
+{
+	width:100%;
+	height:25px;
+	float:left;
+	font-size:10pt;
+	padding: 8px 0 0 0;
+	margin-left: 0px;
+	text-align:center;
+}
+.mLabelTitle
+{
+	width:100px;
+	float:left;
+	text-align:right;
+	font-size:11pt;
+	margin-left:10px;
+}
+/*Button*/
+.mButton
+{
+	
+	border: 1px solid #189fd6;
+	height:23px;
+	width:100px;
+	PADDING-RIGHT: 2px; 	
+	PADDING-LEFT: 2px; 	
+	FONT-SIZE: 12px; 	
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#2292DD); 	
+	CURSOR: hand; 	
+	COLOR: #014752; 	
+	PADDING-TOP: 2px;
+	}
+
+
+/*GridView*/
+.mGridView
+{
+    height:auto;    
+    Font-Size:12pt;
+    border:solid 1px #189fd6;
+    margin-top:20px;
+    width:800px;  
+    
+}
+.mGridView th
+{   
+    border:solid 1px #189fd6;
+    Font-Size:10pt;
+    font-weight:normal;
+    padding:2px 5px 2px 5px;
+    background-color:#E3EFFF;
+    text-align:center;    
+    height:25px;   
+}
+.mGridView td
+{   
+    border:solid 1px #189fd6;
+    Font-Size:10pt;
+    padding:2px 5px 2px 5px;
+    text-align:center;
+     height:18px;   
+ }  
+ /*悬浮的层*/
+.mLayer
+{
+	position:absolute;
+	border:1px #189fd6 solid;
+	background-color:GhostWhite;
+	width:auto;
+	height:auto;			
+}
+
+.float_LeftAndRight
+{	
+	width:60px;
+	padding:2px 0;
+}
+.float_Middle
+{
+	width:60px;
+	padding:2px 0;
+}
+.float_Padding
+{
+	padding:2px 0;
+}
+
+.miniTable
+{
+	width:400px;
+	font-size:10pt;
+}
+.miniTable td
+{
+	background-color:#99cccc;
+	text-align:right;
+}
+.MiniTable_title
+{
+	font-size:10pt;
+	background-color:#006699;
+	color:White;
+	text-align:left;
+}
+.label_w
+{
+	width:100%;
+	font-size:10pt;
+	color:White;
+	text-align:left;
+}
+.mLT
+{
+	width:120px;
+	height:22px;
+	text-align:left;
+	float:left;
+}
+.mMT
+{
+	width:100%;
+	height:22px;
+	text-align:left;
+	float:left;
+}
+.label_f
+{
+	width:100%;
+	font-size:10pt;
+	text-align:left;
+}
+.ctr_big
+{
+	width:30%;
+}
+.ctr_small
+{
+	width:20%;
+}
+/*实时状态表*/
+.listTable
+{ 
+    height:auto;
+    width:800px;
+	font-size:10pt;
+	background:#189fd6;
+    
+     
+}
+.listTable th
+{   
+    
+    Font-Size:10pt;
+    font-weight:normal;
+    background-color:#E3EFFF;
+    padding: 4px 2px 0px 2px ; 
+    text-align:center;
+    height:25px;	
+}
+.listTable td
+{ 
+	background:#F5F9FF;
+    Font-Size:10pt;
+    text-align:center; 
+    padding: 2px 2px 2px 2px ;
+    vertical-align:middle;
+    height:18px;     
+ }
+ .listTable2
+{ 
+    height:auto;
+    width:800px;
+	font-size:10pt;
+	background:#C1C1C1;
+    
+     
+}
+.listTable2 th
+{   
+    
+    Font-Size:10pt;
+    font-weight:normal;
+    background-color:#FFFFFF;
+    padding: 4px 2px 0px 2px ; 
+    text-align:center;
+    height:25px;	
+}
+.listTable2 td
+{ 
+	background:#F5F9FF;
+    Font-Size:10pt;
+    text-align:left; 
+    padding: 2px 2px 2px 2px;
+    vertical-align:middle;
+    height:18px;     
+ }
+ .intable
+ {
+ 	background-color:#99cccc;
+	height:0px;
+ 	}
+ 	.querycontainer
+{
+	width:800px;
+	font-size:10pt;
+	margin:0;
+}
+
+.querycontainer td
+{
+	padding: 2px 0;
+	
+}
+.querytitleList
+{
+	width:65px;
+	padding:2px 0;
+	text-align: center;
+	
+}
+.querybtnlist
+{
+	width:100px;
+	padding:2px 0;
+	text-align: center;
+}
+.queryctrlList
+{
+	width:100px;
+	padding:2px 0;
+	text-align: left;
+}
+.btn 
+{
+	width:100px;
+	height:23px;
+BORDER-RIGHT: #189fd6 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #189fd6 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#2292DD); BORDER-LEFT: #189fd6 1px solid; CURSOR: hand; COLOR: #014752; PADDING-TOP: 2px; BORDER-BOTTOM: #189fd6 1px solid
+}
+
+a:link {
+	color: #0085DD;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #0085DD;
+}

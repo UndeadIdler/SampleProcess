@@ -1,0 +1,10 @@
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\bin\Release\ESBasic.dll
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\bin\Release\ESBasic.pdb
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.csprojResolveAssemblyReference.cache
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.Widget.AgileProgressBar.resources
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.Widget.EnumComboBox.resources
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.Widget.ExListView.resources
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.csproj.GenerateResource.Cache
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.dll
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\ESBasic\obj\Release\ESBasic.pdb

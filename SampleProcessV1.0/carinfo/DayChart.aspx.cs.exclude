@@ -1,0 +1,119 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.DataVisualization.Charting;
+using Newtonsoft.Json;
+
+namespace MobileWeb.Archive
+{
+    public partial class DayChart : System.Web.UI.Page
+    {
+        private string cAgencyCode = "";
+        private int IType = 0;
+        private double ICount = 0;
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            if (!IsPostBack)
+            {
+                if (Request["cAgencyCode"] != null)
+                {
+                    if (Request["cAgencyCode"].ToString() != "")
+                    {
+                        this.cAgencyCode = Request["cAgencyCode"].ToString();
+                        this.IType = int.Parse(Request["type"].ToString());
+                    }
+                }
+                WebMonitorService.WebMonitorService WebMonitorbll = new WebMonitorService.WebMonitorService();
+
+                WebMonitorService.VOutlet Outlet = WebMonitorbll.GetOutlet(this.cAgencyCode, "01");
+                if (Outlet != null)
+                {
+                    string result = WebMonitorbll.QueryDayData("admin", "01", Outlet.IEnterpriseID, "", DateTime.Now.AddDays(-1).ToString(),
+                        DateTime.Now.ToString(), this.IType, 1);
+                    DataTable dt = JsonConvert.DeserializeObject(result, typeof(DataTable)) as DataTable;
+
+                    Chart1.Height = 5 * dt.Rows.Count;
+                    Chart1.ChartAreas["ChartArea1"].AxisY.Maximum = dt.Columns.Count - 1;
+
+                    ArrayList xValues = new ArrayList();
+                    ArrayList tValues = new ArrayList();
+                    for (int i = 0; i < dt.Rows.Count; i++)
+                    {
+                        if (i == 0)
+                        {
+                            xValues.Add(double.Parse(dt.Rows[i]["ISample"].ToString()) - 1);
+                            tValues.Add(DateTime.Parse(dt.Rows[i][0].ToString()).AddMinutes(-5).ToShortTimeString());
+                        }
+
+                        xValues.Add(double.Parse(dt.Rows[i]["ISample"].ToString()));
+                        tValues.Add(dt.Rows[i][0].ToString());
+
+                        if (i == dt.Rows.Count - 1)
+                        {
+                            xValues.Add(double.Parse(dt.Rows[i]["ISample"].ToString()) + 1);
+                            tValues.Add(DateTime.Parse(dt.Rows[i][0].ToString()).AddMinutes(5).ToShortTimeString());
+                        }
+                    }
+
+                    ArrayList yValues = new ArrayList();
+                    for (int j = 1; j < dt.Columns.Count - 1; j++)
+                    {
+                        yValues.Clear();
+
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            if (i == 0)
+                            {
+                                yValues.Add(j);
+                            }
+                            yValues.Add(dt.Rows[i][j].ToString() == "开" ? j : double.NaN);
+
+                            if (i == dt.Rows.Count - 1)
+                            {
+                                yValues.Add(j);
+                            }
+                        }
+                        Chart1.Series.Add("Default" + j);
+
+                        Chart1.Series["Default" + j].BorderWidth = 2;
+                        Chart1.Series["Default" + j].ChartType = System.Web.UI.DataVisualization.Charting.SeriesChartType.Line;
+                        Chart1.Series["Default" + j].BorderColor = System.Drawing.Color.Blue;
+                        Chart1.Series["Default" + j].ShadowOffset = 1;
+                        Chart1.Series["Default" + j].Color = System.Drawing.Color.Blue;
+
+                        Chart1.Series["Default" + j].EmptyPointStyle.BorderDashStyle = ChartDashStyle.Solid;
+                        Chart1.Series["Default" + j].EmptyPointStyle.BorderWidth = 2;
+                        Chart1.Series["Default" + j].EmptyPointStyle.Color = System.Drawing.Color.Red;
+                        Chart1.Series["Default" + j].EmptyPointStyle.MarkerStyle = MarkerStyle.None;
+
+                        Chart1.Series["Default" + j].Points.DataBindXY(xValues.ToArray(), yValues.ToArray());
+
+                        Chart1.Series["Default" + j].Points[0].Label = dt.Columns[j].ColumnName.Substring(dt.Columns[j].ColumnName.LastIndexOf("_") + 1);
+
+                        for (int k = 0; k < Chart1.Series["Default" + j].Points.Count; k++)
+                        {
+                            DateTime dtime = DateTime.Parse(tValues[k].ToString());
+                            int Minute = 0;
+                            Minute = 5 * (dtime.Minute / 5);
+                            Chart1.Series["Default" + j].Points[k].AxisLabel = dtime.Hour + ":" + Minute;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        public double GetCount()
+        {
+            return this.ICount;
+        }
+    }
+}

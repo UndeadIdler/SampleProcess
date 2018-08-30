@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="首页" >
+      <siteMapNode title="样品报告">
+      <siteMapNode url="~/Sample/SampleListQuery.aspx" title="标签打印"/>       
+      <siteMapNode url="~/Sample/SampleItemQuery.aspx" title="样品查询"/> 
+      <siteMapNode url="~/OutRecord/OutRecordList.aspx" title="外出记录"/>
+
+      <siteMapNode title="样品管理">
+        <siteMapNode url="~/Sample/AccessReport.aspx" title="任务下达"/>
+        <siteMapNode url="~/Sample/AccessSample.aspx" title="样品接收"/>
+        <siteMapNode url="~/Sample/drawSample.aspx" title="分析领样"/>
+        <siteMapNode url="~/Sample/SampleData.aspx" title="分析登记"/>
+        <siteMapNode url="~/Sample/ReportSample.aspx" title="报告编制"/>
+        <siteMapNode url="~/Sample/ReportSampleScance.aspx" title="现场数据上报"/>
+        <siteMapNode url="~/Sample/ReportSampleData.aspx" title="分工指派"/>
+        <siteMapNode url="~/Sample/ReportCheck.aspx" title="报告校核"/>
+        <siteMapNode url="~/Sample/ReportVerify.aspx" title="报告审核"/>
+        <siteMapNode url="~/Sample/ReportSign.aspx" title="报告批准"/>
+        <siteMapNode url="~/Sample/ReportSignSend.aspx" title="报告装订"/>
+       
+     
+      </siteMapNode>
+
+      <siteMapNode title="样品统计">
+        <siteMapNode url="~/Reports/SummaryReport.aspx" title="监测数据统计表"/>
+        <siteMapNode url="~/Reports/ComponentReportType.aspx" title="监测数据组成表"/>       
+        <siteMapNode url="~/Reports/ComponentReportMonitor.aspx" title="监测报告数据组成表"/>
+        <siteMapNode url="~/Reports/ComponentReportMonitor2.aspx" title="测试报告数据组成表"/>
+        <siteMapNode url="~/Reports/MonitorItemReport.aspx" title="监测数据分析统计表"/>
+         <siteMapNode url="~/Reports/DayAccess.aspx" title="每日数据接收量"/>
+         <siteMapNode url="~/Reports/DayEnd.aspx" title="每日数据完成量"/>
+         <siteMapNode url="~/Reports/SampleDayAccess.aspx" title="每日样品接收量"/>
+        <siteMapNode url="~/Sample/SampleQuery.aspx" title="样品登记表"/>
+         <siteMapNode url="~/Sample/SampleQueryOutIn.aspx" title="样品出入库登记表"/>
+       <siteMapNode url="~/Sample/ReportSampleQuery.aspx" title="报告查询"/>
+       <siteMapNode url="~/Reports/MonitorEff.aspx" title="水组耗时统计"/>
+        <siteMapNode url="~/Reports/ZKSample.aspx" title="质控统计"/> 
+      </siteMapNode>
+ </siteMapNode>
+      <siteMapNode title="管理查询">       
+        <siteMapNode url="~/Query/SalesQuery.aspx" title="销售数据"/>
+        <siteMapNode url="~/Query/ReportQuery.aspx" title="上报查询"/>
+        <siteMapNode url="~/Query/AlarmQuery.aspx" title="报警查询"/>
+        <siteMapNode url="~/Query/OperatingQuery.aspx" title="操作查询"/>
+      </siteMapNode>
+    
+  <siteMapNode title="系统设置">
+    <siteMapNode title="基础数据">
+      <siteMapNode url="~/BaseData/ItemInfoSet.aspx" title="项目类型管理"/>
+      <siteMapNode url="~/BaseData/StationInfo.aspx" title="企业信息"/>
+      <siteMapNode url="~/BaseData/WTStationInfo.aspx" title="委托单位"/>
+      <siteMapNode url="~/BaseData/SampleTypeSet.aspx" title="分析项目大类"/>
+      <siteMapNode url="~/BaseData/AnalysisItemSet.aspx" title="分析项目管理"/>
+      <siteMapNode url="~/BaseData/ClientSet.aspx" title="区域管理"/>
+      <siteMapNode url="~/BaseData/HYItemParam.aspx" title="标准设置"/>
+      <siteMapNode url="~/BaseData/QYItemParam.aspx" title="企业标准"/>
+      <siteMapNode url="~/BaseData/OUTNOItemParam.aspx" title="采样点配置"/>
+      <siteMapNode url="~/BaseData/HYItem.aspx" title="行业管理"/>
+      <siteMapNode url="~/BaseData/AnalysisItemSet2.aspx" title="监测项维护"/>
+      <siteMapNode url="~/BaseData/AnalysisItemSpecial.aspx" title="标签打印设置"/>
+    <siteMapNode url="~/BaseData/AnalysisItemSetEff.aspx" title="监测项消耗时间"/>
+    </siteMapNode>
+    
+    <siteMapNode title="权限设置">
+      <siteMapNode url="~/Right/roleManagement.aspx" title="角色管理"/>
+      <siteMapNode url="~/Right/PurviewMgmt.aspx" title="用户管理"/>
+      <siteMapNode url="~/Right/ModifyPwd.aspx" title="密码修改"/>
+    </siteMapNode>    
+  </siteMapNode>
+
+      <siteMapNode title="验收报告流程">
+        <siteMapNode url="~/ExamineReport/ExamineReportQuery.aspx" title="委托监测列表"/>
+          <siteMapNode url="~/ExamineReport/ReportListQuery.aspx" title="报告查看"/>
+        <siteMapNode url="~/YSFlow/access0.aspx" title="综合室受理"/>
+        <siteMapNode url="~/YSFlow/access01.aspx" title="项目初审"/>
+        <siteMapNode url="~/YSFlow/access1.aspx" title="项目指派"/>
+        <siteMapNode url="~/YSFlow/access2.aspx" title="现场踏勘"/>
+        <siteMapNode url="~/YSFlow/access3.aspx" title="验收方案编写"/>
+        <siteMapNode url="~/YSFlow/access4.aspx" title="整改函编制"/>
+         <siteMapNode url="~/YSFlow/access05.aspx" title="现场监测"/>
+        <siteMapNode url="~/YSFlow/access5.aspx" title="报告编制"/>
+        
+     <!--    <siteMapNode url="~/ExamineReport/access11.aspx" title="外业室报告修改"/>
+        <siteMapNode url="~/ExamineReport/access12.aspx" title="综合室审定报告"/>
+        <siteMapNode url="~/ExamineReport/access13.aspx" title="外业室修改报告"/>
+        <siteMapNode url="~/ExamineReport/access14.aspx" title="办公室装订"/>-->
+      </siteMapNode>
+        <siteMapNode url="~/Document/ExpertTree.aspx" title="文件管理"/>
+      <siteMapNode url="~/log/LogList.aspx" title="工作日志"/>
+      <siteMapNode title="车辆管理">
+        <siteMapNode url="~/carinfo/CarInfo.aspx" title="车辆信息"/>
+        <siteMapNode url="~/carinfo/OutCar.aspx" title="出车记录"/>
+        <siteMapNode url="~/carinfo/OutCarChart.aspx" title="出车图表"/>
+      </siteMapNode>
+    </siteMapNode>  
+</siteMap>

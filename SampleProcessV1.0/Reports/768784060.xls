@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet">
+ <x:ExcelWorkbook>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <ss:Styles>
+  <ss:Style ss:ID="Default">
+   <ss:Alignment ss:Horizontal="Automatic" ss:Rotate="0.0" ss:Vertical="Bottom"
+    ss:ReadingOrder="Context"/>
+   <ss:Borders>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11" ss:Color="Automatic" ss:Bold="0"
+    ss:Italic="0" ss:Underline="None"/>
+   <ss:Interior ss:Color="Automatic" ss:Pattern="None"/>
+   <ss:NumberFormat ss:Format="General"/>
+   <ss:Protection ss:Protected="1"/>
+  </ss:Style>
+  <ss:Style ss:ID="wc0C47B30000000000">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+  </ss:Style>
+  <ss:Style ss:ID="mc0C47B2000C47B200">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+  </ss:Style>
+ </ss:Styles>
+ <c:ComponentOptions>
+  <c:Label>
+   <c:Caption>Microsoft Office 电子表格</c:Caption>
+  </c:Label>
+  <c:MaxHeight>80%</c:MaxHeight>
+  <c:MaxWidth>80%</c:MaxWidth>
+  <c:NextSheetNumber>4</c:NextSheetNumber>
+ </c:ComponentOptions>
+ <x:WorkbookOptions>
+  <c:OWCVersion>12.0.0.4518         </c:OWCVersion>
+ </x:WorkbookOptions>
+ <ss:Worksheet ss:Name="Sheet1">
+  <x:WorksheetOptions>
+   <x:Selected/>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1:R1C24</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="4"
+   ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+   <ss:Row>
+    <ss:Cell ss:MergeAcross="23" ss:StyleID="mc0C47B2000C47B200">
+     <ss:Data ss:Type="String">分析任务单</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">id</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">itemid</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">AIName</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">Name</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">analysisnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">scenejcnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">Column1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">scenehgnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">Column2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">experimentjcnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">Column3</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">experimenthgnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">Column4</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">jbhsjcnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">Column5</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">jbhshgnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">Column6</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">alljcnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">allhgnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">mmjcnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">mmhgnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">byjcnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">byhgnum</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">amount</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">62</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">间-二甲苯</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">程旭东</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">0</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">0</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000"/>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">50</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">50</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">色度</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="String">程旭东</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">0</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">0</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">50</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">0</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0C47B30000000000">
+     <ss:Data ss:Type="Number">1</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet2">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet3">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+</ss:Workbook>

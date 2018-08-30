@@ -1,0 +1,162 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <title>系统登陆 </title>
+    <link rel="stylesheet" type="text/css" href="css/Login.css" />
+
+    <style type="text/css">
+        TABLE
+        {
+            font-size: 12px;
+            color: #333333;
+            line-height: 150%;
+            font-family: "宋体";
+        }
+        BODY
+        {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body leftmargin="0" background="images/bg.gif" topmargin="0">
+    <form id="Form1" name="form1"  runat="server">
+    <div align="center">
+        <!--5-1-A-s-p-X--->
+        <table cellspacing="0" cellpadding="0" width="913" border="0">
+            <tbody>
+                <tr>
+                    <td width="461" style="height: 465px" valign="top">
+                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div align="left" style="height:78px"><p></p><br /><br />
+                                            <asp:Label ID="Label1" runat="server" Text="样品报告管理系统" 
+                                                style="color: #FFFFFF; font-weight: 700; font-size: xx-large; font-family: 华文行楷"></asp:Label>
+                                           <%-- <img height="80" src="images/log_mykd_n.gif" width="212">--%></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img height="110" src="images/ren1_n.gif" width="461">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <img height="230" src="images/ren2.jpg" width="461">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td valign="top" style="height: 465px">
+                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tbody>
+                                <tr>
+                                    <td valign="bottom" height="190">
+                                        <img height="32" src="images/pic_text.gif" width="381">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                            <tbody>
+                                <tr>
+                                    <td valign="top" background="images/con1.gif">
+                                        <table style="margin-top: 37px; margin-left: 8px" cellspacing="0" cellpadding="0"
+                                            width="100%" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td><div style="text-align: left">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                        <asp:Label ID="lbl_title" runat="server" Text="登  录" 
+                                                            style="color: #003366; font-size: large; font-family: 黑体"></asp:Label></div>
+                                                        <%--<img height="34" src="images/pic_text_login.gif" width="253">--%>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table style="margin-top: 10px; width: 379px;" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td nowrap style="width: 38px">
+                                                                        用户：
+                                                                    </td>
+                                                                    <td style="width: 150px">
+                                                                        <asp:TextBox ID="txt_UserName" runat="server" CssClass="Loginput" Width="150px"></asp:TextBox>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="padding-top: 5px">
+                                                                    <td style="width: 38px">
+                                                                        密码：
+                                                                    </td>
+                                                                    <td style="width: 155px">
+                                                                        <asp:TextBox ID="txt_Pwd" runat="server" TextMode="Password" CssClass="Loginput" Width="150px"></asp:TextBox>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr style="padding-top: 5px">
+                                                                    <td style="width: 38px">
+                                                                        &nbsp;
+                                                                    </td>
+                                                                    <td style="width: 155px">
+                                                                        <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div align="left">
+                                                                                            <asp:ImageButton ID="btn_Login" ImageUrl="images/but1.gif" runat="server" onclick="btn_Login_Click" 
+                                                                                               />
+                                                                                          </div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <div align="left">
+                                                                                            <img height="18" src="images/but1_y.gif" width="83"></div>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td width="22">
+                                        <img height="229" src="images/con2.gif" width="22">
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table cellspacing="0" cellpadding="0" width="913" align="center" border="0">
+            <tbody>
+                <tr>
+                    <td style="padding-bottom: 10px" valign="bottom" height="180">
+                        <div align="center">
+                            <font color="#999999">浙江创源环境监控技术有限公司版权所有 2011-2014<br>
+                                请使用IE6.0 SP1以上浏览器，最佳显示分辨率1024×768</font></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    </form>
+</body>
+</html>

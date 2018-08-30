@@ -1,0 +1,12 @@
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\obj\Debug\CommonLib.csprojResolveAssemblyReference.cache
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\CommonLib.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\CommonLib.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\DataAccess.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\DBUtility.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\ESBasic.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\DataAccess.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\DBUtility.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\ESBasic.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\bin\Debug\ESBasic.xml
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\obj\Debug\CommonLib.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\CommonLib\obj\Debug\CommonLib.pdb

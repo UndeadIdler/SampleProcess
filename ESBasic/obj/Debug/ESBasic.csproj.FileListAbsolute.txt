@@ -1,0 +1,164 @@
+E:\新建文件夹 (4)\ESBasic\bin\Debug\ESBasic.XML
+E:\新建文件夹 (4)\ESBasic\bin\Debug\ESBasic.dll
+E:\新建文件夹 (4)\ESBasic\bin\Debug\ESBasic.pdb
+E:\新建文件夹 (4)\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+E:\新建文件夹 (4)\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+E:\新建文件夹 (4)\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+E:\新建文件夹 (4)\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+E:\新建文件夹 (4)\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+E:\新建文件夹 (4)\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\新建文件夹 (4)\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\新建文件夹 (4)\ESBasic\obj\Debug\ESBasic.dll
+E:\新建文件夹 (4)\ESBasic\obj\Debug\ESBasic.pdb
+E:\team\ESBasic\bin\Debug\ESBasic.XML
+E:\team\ESBasic\bin\Debug\ESBasic.dll
+E:\team\ESBasic\bin\Debug\ESBasic.pdb
+E:\team\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+E:\team\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+E:\team\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+E:\team\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+E:\team\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+E:\team\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\team\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\team\ESBasic\obj\Debug\ESBasic.dll
+E:\team\ESBasic\obj\Debug\ESBasic.pdb
+E:\复件 team\ESBasic\bin\Debug\ESBasic.dll
+E:\复件 team\ESBasic\bin\Debug\ESBasic.pdb
+E:\复件 team\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+E:\复件 team\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+E:\复件 team\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+E:\复件 team\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+E:\复件 team\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+E:\复件 team\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\复件 team\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\复件 team\ESBasic\obj\Debug\ESBasic.dll
+E:\复件 team\ESBasic\obj\Debug\ESBasic.pdb
+E:\复件 team\ESBasic\bin\Debug\ESBasic.XML
+E:\jx_zlb_team\ESBasic\bin\Debug\ESBasic.XML
+E:\jx_zlb_team\ESBasic\bin\Debug\ESBasic.dll
+E:\jx_zlb_team\ESBasic\bin\Debug\ESBasic.pdb
+E:\jx_zlb_team\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+E:\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+E:\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+E:\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+E:\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+E:\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\jx_zlb_team\ESBasic\obj\Debug\ESBasic.dll
+E:\jx_zlb_team\ESBasic\obj\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\bin\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\bin\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\obj\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\ESBasic\bin\Debug\ESBasic.XML
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\bin\Debug\ESBasic.XML
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\bin\Debug\ESBasic.dll
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\bin\Debug\ESBasic.pdb
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.dll
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\bin\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\bin\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\obj\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\ESBasic\bin\Debug\ESBasic.XML
+F:\work\jx_zlb_team\ESBasic\bin\Debug\ESBasic.XML
+F:\work\jx_zlb_team\ESBasic\bin\Debug\ESBasic.dll
+F:\work\jx_zlb_team\ESBasic\bin\Debug\ESBasic.pdb
+F:\work\jx_zlb_team\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\work\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\work\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\work\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\work\jx_zlb_team\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\work\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\work\jx_zlb_team\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\work\jx_zlb_team\ESBasic\obj\Debug\ESBasic.dll
+F:\work\jx_zlb_team\ESBasic\obj\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.XML
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.XML
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.dll
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.pdb
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.dll
+F:\work\2013-11-12\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\bin\Debug\ESBasic.pdb
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.dll
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\ESBasic\obj\Debug\ESBasic.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\bin\Debug\ESBasic.XML
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\bin\Debug\ESBasic.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\bin\Debug\ESBasic.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.csproj.GenerateResource.Cache
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\ESBasic\obj\Debug\ESBasic.csprojResolveAssemblyReference.cache
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\bin\Debug\ESBasic.XML
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\bin\Debug\ESBasic.dll
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\bin\Debug\ESBasic.pdb
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.csproj.GenerateResource.Cache
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.dll
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.pdb
+E:\workplace\海盐监测站\SampleProcessV1.1\ESBasic\obj\Debug\ESBasic.csprojResolveAssemblyReference.cache
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\bin\Debug\ESBasic.XML
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\bin\Debug\ESBasic.dll
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\bin\Debug\ESBasic.pdb
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.csprojResolveAssemblyReference.cache
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.Threading.Timers.RichTimer.TimerConfigure.resources
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.Widget.AgileProgressBar.resources
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.Widget.EnumComboBox.resources
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.Widget.ExListView.resources
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.csproj.GenerateResource.Cache
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.dll
+E:\workplace\海盐监测站\SampleProcessV2.0\ESBasic\obj\Debug\ESBasic.pdb

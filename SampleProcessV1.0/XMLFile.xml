@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312" ?> 
+<Application>
+  <FileUpLoad>
+    <Format>.pdf|.doc|.xls|.docx</Format>
+</FileUpLoad>
+</Application>

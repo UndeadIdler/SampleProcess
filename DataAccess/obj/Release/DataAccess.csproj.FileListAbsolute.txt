@@ -1,0 +1,5 @@
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\DataAccess\bin\Release\DataAccess.dll
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\DataAccess\bin\Release\DataAccess.pdb
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\DataAccess\obj\Release\DataAccess.csprojResolveAssemblyReference.cache
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\DataAccess\obj\Release\DataAccess.dll
+F:\桐乡监测站相关源码和发布的网站\SampleProcessV1.1(0526)\SampleProcessV1.1\DataAccess\obj\Release\DataAccess.pdb

@@ -1,0 +1,24 @@
+﻿1>------ 已启动生成: 项目: E:\...\SampleProcessV1.0\, 配置: Debug Any CPU ------
+1>警告: 无法更新自动刷新引用“microsoft.office.interop.word.dll”。 找不到程序集“D:\Program Files\Microsoft Visual Studio 10.0\Visual Studio Tools for Office\PIA\Office12\Microsoft.Office.Interop.Word.dll”。
+1>正在预编译网站
+1>
+1>正在生成目录“/SampleProcessV1.0/App_Code/”。
+1>正在生成目录“/SampleProcessV1.0/BaseData/”。
+1>正在生成目录“/SampleProcessV1.0/”。
+1>正在生成目录“/SampleProcessV1.0/Controls/”。
+1>正在生成目录“/SampleProcessV1.0/carinfo/”。
+1>正在生成目录“/SampleProcessV1.0/Chart/”。
+1>正在生成目录“/SampleProcessV1.0/Document/”。
+1>正在生成目录“/SampleProcessV1.0/DsoFramer/”。
+1>正在生成目录“/SampleProcessV1.0/ExamineReport/”。
+1>正在生成目录“/SampleProcessV1.0/js/cal/lang/”。
+1>正在生成目录“/SampleProcessV1.0/js/cal/”。
+1>正在生成目录“/SampleProcessV1.0/js/”。
+1>正在生成目录“/SampleProcessV1.0/log/”。
+1>正在生成目录“/SampleProcessV1.0/OTlog/”。
+1>正在生成目录“/SampleProcessV1.0/OutRecord/”。
+1>正在生成目录“/SampleProcessV1.0/Reports/”。
+1>正在生成目录“/SampleProcessV1.0/Right/”。
+1>正在生成目录“/SampleProcessV1.0/Sample/”。
+1>正在生成目录“/SampleProcessV1.0/YSFlow/”。
+1>正在生成目录“/SampleProcessV1.0/_workplace_%e6%a1%90%e4%b9%a1%e7%9b%91%e6%b5%8b%e7%ab%99_sampleprocessv1.1_tx_sampleprocessv1.0/8e33d846/434d878b/”。

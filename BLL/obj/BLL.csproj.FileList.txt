@@ -1,0 +1,12 @@
+obj\Release\ResolveAssemblyReference.cache
+bin\Debug\BLL.dll
+bin\Debug\BLL.pdb
+bin\Debug\Common.dll
+bin\Debug\DBUtility.dll
+bin\Debug\COM.Excel.dll
+bin\Debug\Excel.dll
+bin\Debug\DBUtility.pdb
+bin\Debug\Common.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BLL.dll
+obj\Debug\BLL.pdb

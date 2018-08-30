@@ -1,0 +1,62 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DayChart.aspx.cs" Inherits="MobileWeb.Archive.DayChart" %>
+
+<%@ Register Assembly="System.Web.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>监测图表</title>
+    <link rel="stylesheet" href="../css/themes/default/jquery.mobile-1.1.0.css" />
+    <link rel="stylesheet" href="../docs/_assets/css/jqm-docs.css" />
+
+    <script src="../js/jquery.js"></script>
+
+    <script src="../docs/_assets/js/jqm-docs.js"></script>
+
+    <script src="../js/jquery.mobile-1.1.0.js"></script>
+
+</head>
+<body>
+    <form id="form1" runat="server" style="width: 100%; height: 100%">
+    <div data-role="page">
+        <div data-role="header">
+            <h1>
+                图表</h1>
+        </div>
+        <div data-role="content">
+            <asp:Chart ID="Chart1" runat="server" Style="width: auto; height: auto" ImageLocation="~/TempImages/ChartPic_#SEQ(300,3)"
+                ImageType="Png" BackColor="WhiteSmoke" BorderDashStyle="Solid" Palette="BrightPastel"
+                BackSecondaryColor="White" BackGradientStyle="TopBottom" BorderWidth="1" BorderColor="26, 59, 105">
+                <BorderSkin SkinStyle="Emboss"></BorderSkin>
+                <Series>
+                </Series>
+                <ChartAreas>
+                    <asp:ChartArea Name="ChartArea1" BorderColor="64, 64, 64, 64" BorderDashStyle="Solid"
+                        BackSecondaryColor="White" BackColor="Gainsboro" ShadowColor="Transparent" BackGradientStyle="TopBottom">
+                        <AxisY2 Enabled="False">
+                            <MajorGrid Enabled="False" />
+                        </AxisY2>
+                        <AxisX2 Enabled="False">
+                            <MajorGrid Enabled="False" />
+                        </AxisX2>
+                        <Area3DStyle Rotation="10" Perspective="10" Inclination="15" IsRightAngleAxes="False"
+                            WallWidth="0" IsClustered="False"></Area3DStyle>
+                        <AxisY LineColor="64, 64, 64, 64" IsLabelAutoFit="False">
+                            <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" />
+                            <MajorGrid LineColor="64, 64, 64, 64" />
+                        </AxisY>
+                        <AxisX TitleFont="Microsoft Sans Serif, 10pt, style=Bold" LineColor="64, 64, 64, 64"
+                            IsLabelAutoFit="False">
+                            <LabelStyle Font="Trebuchet MS, 8.25pt, style=Bold" IsStaggered="True" Format="#" />
+                            <MajorGrid LineColor="64, 64, 64, 64" />
+                        </AxisX>
+                        <AxisY Title="泵" Enabled="False">
+                        </AxisY>
+                    </asp:ChartArea>
+                </ChartAreas>
+            </asp:Chart>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

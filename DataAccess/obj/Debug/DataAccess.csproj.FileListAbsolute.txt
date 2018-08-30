@@ -1,0 +1,70 @@
+E:\新建文件夹 (4)\DataAccess\bin\Debug\DataAccess.dll
+E:\新建文件夹 (4)\DataAccess\bin\Debug\DataAccess.pdb
+E:\新建文件夹 (4)\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\新建文件夹 (4)\DataAccess\obj\Debug\DataAccess.dll
+E:\新建文件夹 (4)\DataAccess\obj\Debug\DataAccess.pdb
+E:\team\DataAccess\bin\Debug\DataAccess.dll
+E:\team\DataAccess\bin\Debug\DataAccess.pdb
+E:\team\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\team\DataAccess\obj\Debug\DataAccess.dll
+E:\team\DataAccess\obj\Debug\DataAccess.pdb
+E:\复件 team\DataAccess\bin\Debug\DataAccess.dll
+E:\复件 team\DataAccess\bin\Debug\DataAccess.pdb
+E:\复件 team\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\复件 team\DataAccess\obj\Debug\DataAccess.dll
+E:\复件 team\DataAccess\obj\Debug\DataAccess.pdb
+E:\jx_zlb_team\DataAccess\bin\Debug\DataAccess.dll
+E:\jx_zlb_team\DataAccess\bin\Debug\DataAccess.pdb
+E:\jx_zlb_team\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+E:\jx_zlb_team\DataAccess\obj\Debug\DataAccess.dll
+E:\jx_zlb_team\DataAccess\obj\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\DataAccess\bin\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\DataAccess\bin\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\DataAccess\obj\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team\DataAccess\obj\Debug\DataAccess.pdb
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\DataAccess\bin\Debug\DataAccess.dll
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\DataAccess\bin\Debug\DataAccess.pdb
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\DataAccess\obj\Debug\DataAccess.dll
+F:\work\2013-10-21\jx_zlb_team_20131022\jx_zlb_team\DataAccess\obj\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\DataAccess\bin\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\DataAccess\bin\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\DataAccess\obj\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team\DataAccess\obj\Debug\DataAccess.pdb
+F:\work\jx_zlb_team\DataAccess\bin\Debug\DataAccess.dll
+F:\work\jx_zlb_team\DataAccess\bin\Debug\DataAccess.pdb
+F:\work\jx_zlb_team\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\work\jx_zlb_team\DataAccess\obj\Debug\DataAccess.dll
+F:\work\jx_zlb_team\DataAccess\obj\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\DataAccess\bin\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\DataAccess\bin\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\DataAccess\obj\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\jx_zlb_team_20131022\jx_zlb_team2013\DataAccess\obj\Debug\DataAccess.pdb
+F:\work\2013-11-12\jx_zlb_team2013\DataAccess\bin\Debug\DataAccess.dll
+F:\work\2013-11-12\jx_zlb_team2013\DataAccess\bin\Debug\DataAccess.pdb
+F:\work\2013-11-12\jx_zlb_team2013\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\work\2013-11-12\jx_zlb_team2013\DataAccess\obj\Debug\DataAccess.dll
+F:\work\2013-11-12\jx_zlb_team2013\DataAccess\obj\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\DataAccess\bin\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\DataAccess\bin\Debug\DataAccess.pdb
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\DataAccess\obj\Debug\DataAccess.dll
+F:\工作\代码\版本\嘉兴总量办\2013-11-13\jx_zlb_team2013\DataAccess\obj\Debug\DataAccess.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\DataAccess\bin\Debug\DataAccess.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\DataAccess\bin\Debug\DataAccess.pdb
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\DataAccess\obj\Debug\DataAccess.dll
+E:\workplace\桐乡监测站\SampleProcessV1.1_tx\DataAccess\obj\Debug\DataAccess.pdb
+E:\workplace\海盐监测站\SampleProcessV1.1\DataAccess\bin\Debug\DataAccess.dll
+E:\workplace\海盐监测站\SampleProcessV1.1\DataAccess\bin\Debug\DataAccess.pdb
+E:\workplace\海盐监测站\SampleProcessV1.1\DataAccess\obj\Debug\DataAccess.dll
+E:\workplace\海盐监测站\SampleProcessV1.1\DataAccess\obj\Debug\DataAccess.pdb
+E:\workplace\海盐监测站\SampleProcessV1.1\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\workplace\海盐监测站\SampleProcessV2.0\DataAccess\bin\Debug\DataAccess.dll
+E:\workplace\海盐监测站\SampleProcessV2.0\DataAccess\bin\Debug\DataAccess.pdb
+E:\workplace\海盐监测站\SampleProcessV2.0\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\workplace\海盐监测站\SampleProcessV2.0\DataAccess\obj\Debug\DataAccess.dll
+E:\workplace\海盐监测站\SampleProcessV2.0\DataAccess\obj\Debug\DataAccess.pdb

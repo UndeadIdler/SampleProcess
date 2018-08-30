@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using System.Text;
+using WebApp.Components;
+
+public partial class Login : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        txt_UserName.Focus();
+        //DataSet ds = new MyDataOp("select * from t_系统信息").CreateDataSet();
+        // lbl_title.Text = ds.Tables[0].Rows[0]["系统名称"].ToString();
+        Session.Clear();
+        if (!Page.IsPostBack)
+        {
+            txt_Pwd.Text = "";
+        }
+
+    }
+    #region  Public static void OpenNewFullScreenPage( Page page, string pageUrl, bool isCloseOldPage, string scriptName )
+    /// <summary>
+    /// 打开一个全屏页面并关闭当前页面
+    /// </summary>
+    /// <param name="page">当前页面的指针，一般为this</param>
+    /// <param name="pageUrl">新页面的URL</param>
+    public static void OpenNewFullScreenPage(Page page, string pageUrl, bool isCloseOldPage, string scriptName)
+    {
+        StringBuilder StrScript = new StringBuilder();
+        StrScript.Append("<script language=javascript>");
+        StrScript.Append("width=screen.width-10;");
+        StrScript.Append("height=screen.height-69;");
+        StrScript.Append("var name=Math.random();");
+       // StrScript.Append("alert(name);" + "\n");
+        StrScript.Append("name=window.open('" + pageUrl + "','_blank','toolbar=0,location=0,directories=0,menubar=0,scrollbars=1,resizable=0,top=0,depended=0,left=0,height='+ height +',width='+ width +'');");
+
+        if (isCloseOldPage)
+        {
+           
+            StrScript.Append("window.focus();");
+            StrScript.Append("if(name==null){alert('您的浏览器禁止弹出窗口，请查看浏览器设置！');}");
+
+           StrScript.Append("else{window.opener=null;");
+         
+            StrScript.Append("window.open('','_self');");
+           StrScript.Append("window.close(); }");
+        }
+        StrScript.Append("</script>");
+        if (!page.IsStartupScriptRegistered(scriptName))
+        {
+            page.RegisterStartupScript(scriptName, StrScript.ToString());
+        }
+     
+    }
+    #endregion
+    protected void btn_Login_Click(object sender, ImageClickEventArgs e)
+    {
+        string strSql = "select DepartID,UserID,t_R_UserInfo.RoleID,PWDModifyTime,LevelID,ReadRight,WriteRight,RefreshRight,FileRight,id from t_R_UserInfo inner join t_R_Role on t_R_Role.RoleID=t_R_UserInfo.RoleID where UserID='" + txt_UserName.Text.Trim() + "' and PWD='" + txt_Pwd.Text.Trim() + "'";
+        MyDataOp mdo = new MyDataOp(strSql);
+        DataSet ds = mdo.CreateDataSet();
+
+        if (ds.Tables[0].Rows.Count == 0)
+        {
+            Response.Write("<script language='javascript'>alert('帐户或密码输入错误！请重新输入！');</script>");
+        }
+        else
+        {
+            int intAttribtionID = Int16.Parse(ds.Tables[0].Rows[0]["DepartID"].ToString());//所属部门
+            Request.Cookies["Cookies"].Values["u_id"] = ds.Tables[0].Rows[0]["UserID"].ToString();//用户名
+            Request.Cookies["Cookies"].Values["u_role"] = ds.Tables[0].Rows[0]["RoleID"].ToString();//角色ID
+            Request.Cookies["Cookies"].Values["u_pswdtime"] = ds.Tables[0].Rows[0]["PWDModifyTime"].ToString();//上次修改密码时间
+            //根据角色获得相关级别和权限信息
+            //strSql = "select * from t_R_Role where RoleID='" + Request.Cookies["Cookies"].Values["u_role"].ToString() + "'";
+            //DataSet ds_role = new MyDataOp(strSql).CreateDataSet();
+            Request.Cookies["Cookies"].Values["u_level"] = ds.Tables[0].Rows[0]["LevelID"].ToString();//级别ID
+            Request.Cookies["Cookies"].Values["u_purview"] = ds.Tables[0].Rows[0]["ReadRight"].ToString() +//读权限
+                ds.Tables[0].Rows[0]["WriteRight"].ToString() +//写权限
+                ds.Tables[0].Rows[0]["RefreshRight"].ToString() +
+                 ds.Tables[0].Rows[0]["FileRight"].ToString();//刷新权限
+           // ds_role.Dispose();
+            //根据级别获得所属地各级的id
+            switch (Request.Cookies["Cookies"].Values["u_level"].ToString())
+            {
+            case "6"://管理级
+                    Request.Cookies["Cookies"].Values["SecondScale"] = intAttribtionID;
+                    break;
+            case "12"://部门级
+                    Request.Cookies["Cookies"].Values["ThirdScale"] = intAttribtionID;
+                    break;
+            default:
+                    break;
+            }
+
+            int u_id = Convert.ToInt32(ds.Tables[0].Rows[0]["id"].ToString());
+           // ds_role.Dispose();
+            ds.Dispose();
+         //   OpenNewFullScreenPage(this, "Main.htm", true, "MainPage");
+            //ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "", "window.open('~/main.aspx','theNewWindow',''fullscreen=yes/1,location=no/0,scrollbars=yes/1,menubar=no/0,resizable=no/0,toolbar=no/0')", true);
+             Response.Redirect("~/main.htm");
+        }
+
+    }
+}

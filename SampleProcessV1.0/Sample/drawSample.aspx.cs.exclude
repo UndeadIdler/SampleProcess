@@ -1,0 +1,389 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using System.Data.SqlClient;
+ using DataAccess;
+using WebApp.Components;
+using DAL;
+
+public partial class drawSample: System.Web.UI.Page
+{
+    private string strSelectedId//样品单号
+    {
+        get { return (string)ViewState["strSelectedId"]; }
+        set { ViewState["strSelectedId"] = value; }
+    }
+
+    private string strReportId//所选择操作列记录对应的id
+    {
+        get { return (string)ViewState["strReportId"]; }
+        set { ViewState["strReportId"] = value; }
+    }
+    private string strReportName//所选择操作列记录对应的id
+    {
+        get { return (string)ViewState["strReportName"]; }
+        set { ViewState["strReportName"] = value; }
+    }
+    private string strAnalysisId//所选择操作列记录对应的id
+    {
+        get { return (string)ViewState["strAnalysisId"]; }
+        set { ViewState["strAnalysisId"] = value; }
+    }
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+                       txt_QueryTime.Attributes.Add("OnFocus", "javascript:WdatePicker({dateFmt:'yyyy-MM-dd'})");
+             Query();
+           // SetButton();
+          
+
+            grdvw_List.Caption = "<FONT style='WIDTH: 102.16%; COLOR:#2292DD;font-size:14pt; LINE-HEIGHT: 150%; FONT-FAMILY: 楷体_GB2312; HEIGHT: 35px'><b>领取样品</b></font>";
+        }
+    }
+  
+    //protected void SetButton()
+    //{
+    //    if (!MyStaVoid.isWrite(Request.Cookies["Cookies"].Values["uid"].ToString(), this.Request.Url.Segments[this.Request.Url.Segments.Length - 1].ToString()))
+    //    {
+    //        btn_Add.Enabled = false;
+    //        btn_OK.Enabled = false;
+    //        btn_AddSample.Enabled = false;
+    //        for (int i = 0; i < grdvw_List.Rows.Count; i++)
+    //        {
+    //          ImageButton btn = (ImageButton)grdvw_List.Rows[i].FindControl("btn_delete");
+    //            if(btn!=null)
+    //          btn.Visible = false;
+
+    //        }
+    //    }
+    //    else
+    //    {
+    //        btn_Add.Enabled = true;
+    //        btn_OK.Enabled = true;
+    //        btn_AddSample.Enabled = true;
+    //        for (int i = 0; i < grdvw_List.Rows.Count; i++)
+    //        {
+    //            ImageButton btn = (ImageButton)grdvw_List.Rows[i].FindControl("btn_delete");
+    //            if(btn!=null)
+    //            btn.Visible = true;
+    //        }
+    //    }
+    //}
+    private void Query()
+    {
+        string constr = "";
+        if (txt_QueryTime.Text.Trim() != "")
+            constr = " and  (year(AccessDate)= '" + DateTime.Parse(txt_QueryTime.Text.Trim() + " 00:00:00").Year + "' AND month(AccessDate)= '" + DateTime.Parse(txt_QueryTime.Text.Trim() + " 00:00:00").Month + "' and day(AccessDate)= '" + DateTime.Parse(txt_QueryTime.Text.Trim() + " 00:00:00").Day + "')";
+
+        string strSql = "select t_M_SampleInfor.id, t_M_ReporInfo.Ulevel ,t_M_ReporInfo.Projectname 项目名称, t_M_SampleInfor.SampleSource 样品来源,t_M_SampleInfor.SampleDate AS 采样时间,t_M_SampleInfor.SampleAddress 采样点 ,t_M_SampleInfor.SampleID AS 样品编号," +
+      "t_M_SampleInfor.AccessDate AS 接样时间, " +
+      " t_M_SampleInfor.TypeID, t_M_SampleType.SampleType AS 样品类型,t_M_SampleInfor.SampleProperty 样品性状, " +
+     " t_M_SampleInfor.StatusID, t_M_SampleInfor.ReportID,t_M_SampleInfor.StatusID" +
+" FROM t_M_ReporInfo inner join  t_M_SampleInfor on t_M_ReporInfo.id=t_M_SampleInfor.ReportID  INNER JOIN" +
+     " t_M_SampleType ON " +
+    "  t_M_SampleInfor.TypeID = t_M_SampleType.TypeID   where  t_M_SampleInfor.StatusID<=2 " + constr + " ORDER BY t_M_SampleInfor.AccessDate";
+
+        DataSet ds = new MyDataOp(strSql).CreateDataSet();
+        DataColumn dcc = new DataColumn("紧急程度");
+        ds.Tables[0].Columns.Add(dcc);
+          DataColumn dcs = new DataColumn("样品状态");
+        ds.Tables[0].Columns.Add(dcs);
+        DataColumn dcitem = new DataColumn("分析项目");
+        ds.Tables[0].Columns.Add(dcitem);
+        DataColumn dcitemvalue = new DataColumn("分析项目编码");
+        ds.Tables[0].Columns.Add(dcitemvalue);
+        foreach (DataRow dr in ds.Tables[0].Rows)
+        {
+
+            if (dr["Ulevel"].ToString() == "1")
+                dr["紧急程度"] = "紧急"; 
+            else
+                dr["紧急程度"] = "一般";
+            if (dr["StatusID"].ToString() == "1")
+                dr["样品状态"] = "使用中";
+            else if (dr["StatusID"].ToString() == "0")
+
+                dr["样品状态"] = "可领用";
+            else
+                dr["样品状态"] = "分析完成";
+            string getitemstr = "select AIName,MonitorItem from t_MonitorItemDetail inner join t_M_AnalysisItem on t_M_AnalysisItem.id=t_MonitorItemDetail.MonitorItem where  SampleID='" + dr["样品编号"].ToString() + "'";
+            DataSet dsitem = new MyDataOp(getitemstr).CreateDataSet();
+            if (dsitem != null && dsitem.Tables.Count > 0)
+            {
+                foreach (DataRow drr in dsitem.Tables[0].Rows)
+                {
+                    dr["分析项目"] += drr[0].ToString() + ",";
+                    dr["分析项目编码"] += drr[1].ToString() + ",";
+                    //itemlist1.Add(dr[0].ToString(), dr[1].ToString());
+                }
+            }
+        }
+        if (ds.Tables[0].Rows.Count == 0)
+        {
+            //没有记录仍保留表头
+            ds.Tables[0].Rows.Add(ds.Tables[0].NewRow());
+            grdvw_List.DataSource = ds;
+            grdvw_List.DataBind();
+            int intColumnCount = grdvw_List.Rows[0].Cells.Count;
+            grdvw_List.Rows[0].Cells.Clear();
+            grdvw_List.Rows[0].Cells.Add(new TableCell());
+            grdvw_List.Rows[0].Cells[0].ColumnSpan = intColumnCount;
+        }
+        else
+        {
+            grdvw_List.DataSource = ds;
+            grdvw_List.DataBind();
+            
+        }
+        ds.Dispose();
+    }
+
+    #region GridView相关事件响应函数
+    protected void grdvw_List_PageIndexChanging(object sender, GridViewPageEventArgs e)
+    {
+        grdvw_List.PageIndex = e.NewPageIndex;
+        Query();
+    }
+    protected void grdvw_List_RowSelecting(object sender, GridViewSelectEventArgs e)
+    { 
+
+    }
+    protected void grdvw_List_RowEditing(object sender, GridViewEditEventArgs e)
+    {
+        CheckBoxList cbl = (CheckBoxList)grdvw_List.Rows[e.NewEditIndex].FindControl("cbl_item");
+        string[] strlist = new string[3 + cbl.Items.Count];
+        string sampleID = grdvw_List.Rows[e.NewEditIndex].Cells[7].Text.Trim();
+        string itemlist = "";
+        string itemValuelist = "";
+        int j = 0;
+
+        DateTime lydate = DateTime.Now;
+        bool flag = false;
+        Entity.Draw entity = new Entity.Draw();
+        entity.SampleID = sampleID;
+        entity.LyDate = DateTime.Now.ToString();
+        entity.UserID = Request.Cookies["Cookies"].Values["u_id"].ToString();
+       
+        //更新分析项目状态为分析中
+        for (int i = 0; i < cbl.Items.Count; i++)
+        {
+            if (cbl.Items[i].Selected)
+            {
+                flag = true;
+                itemlist += cbl.Items[i].Text.Trim() + ",";
+                itemValuelist += cbl.Items[i].Value.Trim() + ",";
+                Entity.SampleItem item = new Entity.SampleItem();
+                item.MonitorID=int.Parse( cbl.Items[i].Value.Trim());
+                item.SampleID=sampleID;
+                entity.SampleItemList.Add(item);
+                item = null;
+                //string stritem = "update t_MonitorItemDetail set flag=1,fxuser= '" + Request.Cookies["Cookies"].Values["u_id"].ToString() + "', lydate='" + lydate + "' where MonitorItem='" + cbl.Items[i].Value + "' and SampleID='" + sampleID + "'";
+                //strlist.SetValue(stritem, j++);
+            }
+        }
+       entity.ItemList=itemlist;
+        entity.ItemValueList=itemValuelist;
+        if (flag)
+        {
+            ////保存领用记录
+            //string str = "Insert into t_DrawSample(SampleID,CreateDate,LyUserID,ItemList,ItemValueList)Values('" + sampleID + "','" + lydate + "','" + Request.Cookies["Cookies"].Values["u_id"].ToString() + "','" + itemlist + "','" + itemValuelist + "')";
+            //strlist.SetValue(str, j++);
+            ////更改样品状态为已领用
+            //str = "Update t_M_SampleInfor set statusID=1,NowLyUser='" + Request.Cookies["Cookies"].Values["u_id"].ToString() + "',LyDate='" + lydate + "',LyRemark='" + itemlist + "' where SampleID='" + sampleID + "'";
+            //strlist.SetValue(str, j++);
+            //MyDataOp sqlobj = new MyDataOp(str);
+            //if (sqlobj.DoTran(j, strlist))
+            DAl.DrawSample DrawSampleobj=new DAl.DrawSample();
+            if(DrawSampleobj.AddDrawSample(entity)>0)
+                ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "clickAddSuccess", "alert('样品领用保存成功！')", true);
+            else
+                ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "clickAddUnSuccess", "alert('样品领用保存失败！')", true);
+        }
+        else
+        {
+            ScriptManager.RegisterStartupScript(this.Page, this.GetType(), "clickAddUnSuccess", "alert('请选择本次领样要分析的项目！')", true);
+        }
+        Query();
+    }
+    protected void grdvw_List_RowCreated(object sender, GridViewRowEventArgs e)
+    {
+        if (e.Row.RowType == DataControlRowType.Header)
+        {
+            TableCell headerDetail1 = new TableCell();
+            headerDetail1.Text = "分析项目选择";
+            headerDetail1.BackColor = System.Drawing.Color.FromArgb(227, 239, 255);
+            headerDetail1.Width = 60;
+            e.Row.Cells.Add(headerDetail1);
+            TableCell headerDetail = new TableCell();
+            headerDetail.Text = "领取样品";
+            headerDetail.BackColor = System.Drawing.Color.FromArgb(227, 239, 255);
+            headerDetail.Width = 60;
+            e.Row.Cells.Add(headerDetail);
+
+            TableCell headerset = new TableCell();
+            headerset.Text = "领样记录";
+            headerset.BackColor = System.Drawing.Color.FromArgb(227, 239, 255);
+            headerset.Width = 60;
+            e.Row.Cells.Add(headerset);
+
+            //TableCell headerDel = new TableCell();
+            //headerDel.Text = "删除";
+            //headerDel.BackColor = System.Drawing.Color.FromArgb(227, 239, 255);
+            //headerDel.Width = 30;
+            //e.Row.Cells.Add(headerDel);
+        }
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            //鼠标移动到每项时颜色交替效果
+            //e.Row.Attributes.Add("OnMouseOut", "this.style.backgroundColor='';");
+            //e.Row.Attributes.Add("OnMouseOver", "this.style.backgroundColor='#00ffee'");
+            int id = e.Row.RowIndex + 1;
+
+            e.Row.Cells[0].Text = id.ToString();
+            //手动添加分析项目添加
+            TableCell tabcSelect = new TableCell();
+            tabcSelect.Width = 100;
+            tabcSelect.Style.Add("text-align", "center");
+            CheckBoxList cbl = new CheckBoxList();
+            cbl.ID = "cbl_item";
+            tabcSelect.Controls.Add(cbl);
+            e.Row.Cells.Add(tabcSelect);
+            //手动添加详细和删除按钮
+            TableCell tabcDetail = new TableCell();
+            tabcDetail.Width = 60;
+            tabcDetail.Style.Add("text-align", "center");
+            ImageButton ibtnDetail = new ImageButton();
+            ibtnDetail.ID = "Draw";
+            ibtnDetail.ImageUrl = "~/images/Detail.gif";
+           
+            ibtnDetail.CommandName = "Edit";
+            tabcDetail.Controls.Add(ibtnDetail);
+            e.Row.Cells.Add(tabcDetail);
+
+            TableCell MenuSet = new TableCell();
+            MenuSet.Width = 60;
+            MenuSet.Style.Add("text-align", "center");
+            //ImageButton btMenuSet = new ImageButton();
+            //btMenuSet.ImageUrl = "~/images/Detail.gif";
+            //btMenuSet.CommandName = "Select";
+            ////btMenuSet.Click+=new ImageClickEventHandler(btMenuSet_Click);
+            //MenuSet.Controls.Add(btMenuSet);
+            e.Row.Cells.Add(MenuSet);
+
+          
+            //ImageButton ibtnDel = new ImageButton();
+            //ibtnDel.ImageUrl = "~/images/Delete.gif";
+            //ibtnDel.ID = "btn_delete";
+            //ibtnDel.CommandName = "Delete";
+            //ibtnDel.Attributes.Add("OnClick", "if(!confirm('确定删除该项吗？')) return false;");
+            ////if (Int16.Parse(Request.Cookies["Cookies"].Values["u_level"].ToString()) > 2 || Request.Cookies["Cookies"].Values["u_purview"].ToString().Substring(0, 1) == "0")
+            ////{
+            ////    ibtnDel.Enabled = false;
+            ////}
+            //if (Request.Cookies["Cookies"].Values["u_purview"].ToString().Substring(1, 1) == "0")
+            //{
+            //    ibtnDel.Enabled = false;
+            //}
+            //tabcDel.Controls.Add(ibtnDel);
+            //e.Row.Cells.Add(tabcDel);
+        }
+        if (e.Row.RowType != DataControlRowType.Pager)
+        {
+            //绑定数据后，隐藏4,5,6,7列 
+            e.Row.Cells[1].Visible = false;
+            e.Row.Cells[2].Visible = false;
+            e.Row.Cells[9].Visible = false;
+            e.Row.Cells[12].Visible = false;
+            e.Row.Cells[13].Visible = false;
+            e.Row.Cells[14].Visible = false;
+           e.Row.Cells[18].Visible = false;
+            //e.Row.Cells[16].Visible = false;
+
+        }
+    }
+    protected void grdvw_List_RowDataBound(object sender, GridViewRowEventArgs e)
+    { 
+        if (e.Row.RowType == DataControlRowType.DataRow)
+        {
+            //初始化checkboxlist
+            CheckBoxList cbl = (CheckBoxList)e.Row.FindControl("cbl_item");
+            
+            if (cbl != null)
+            {
+                BindCheckBoxList(cbl, e.Row.Cells[7].Text.Trim());
+            }
+           
+            bool flag1 = false;
+            bool flag2 = false;
+            ImageButton draw = (ImageButton)e.Row.FindControl("draw");
+            e.Row.Cells[21].Text = getlyrecord(e.Row.Cells[7].Text.Trim(), out flag1);
+           
+            //若样品已被领用则处于不能领样状态
+         
+            if (e.Row.Cells[16].Text.Trim() == "1")
+            {
+                flag2 = false;
+                
+            }
+            else
+            {
+                flag2 = true;
+            }
+
+            draw.Enabled = flag1 || flag2;
+            cbl.Enabled = flag1 || flag2;
+            if(! (flag1 || flag2))
+                e.Row.BackColor = System.Drawing.Color.Salmon;
+        }
+    }     
+    //绑定CheckBoxList的方法     
+    private void BindCheckBoxList(CheckBoxList cbl, string SampleID)     
+    {
+       DataSet ds = new MyDataOp("select MonitorItem,AIName from t_MonitorItemDetail inner join t_M_AnalysisItemEx on t_MonitorItemDetail.MonitorItem=t_M_AnalysisItemEx.id where t_MonitorItemDetail.flag=0 and bz=0 and SampleID='" + SampleID + "'").CreateDataSet();
+        //这里的方法根据你自己的取数据的方法      
+        cbl.DataSource = ds;
+        cbl.DataValueField = "MonitorItem";
+        cbl.DataTextField = "AIName";       
+        cbl.DataBind();     
+    }
+    private string getlyrecord(string SampleID,out bool flag)
+    {
+        string retstr = "";
+        DataSet ds = new MyDataOp("select t_DrawSample.CreateDate,MonitorItem,AIName,LyUserID,Name  from t_DrawSample inner join t_R_UserInfo on LyUserID=UserID  inner join t_MonitorItemDetail on fxDanID=t_DrawSample.id inner join t_M_AnalysisItem  on t_M_AnalysisItem.id=MonitorItem where t_DrawSample.SampleID='" + SampleID + "' order by t_DrawSample.CreateDate desc").CreateDataSet();
+        if (ds != null && ds.Tables.Count > 0)
+        {
+            foreach (DataRow dr in ds.Tables[0].Rows)
+            {
+                retstr += dr["Name"].ToString() + "于" + dr["CreateDate"].ToString() + "分析项目： " + dr["AIName"].ToString() + "\r\n";
+            }
+            if (ds.Tables[0].Rows.Count > 0)
+            {
+                if (ds.Tables[0].Rows[0]["LyUserID"].ToString() == Request.Cookies["Cookies"].Values["u_id"].ToString())
+                    flag = true;
+                else
+                    flag = false;
+            }
+            else flag = true;
+        }
+        else
+            flag = true;
+       return retstr;
+    }
+    protected void btn_query_Click(object sender, EventArgs e)
+    {
+        Query();
+    }
+    #endregion
+
+}

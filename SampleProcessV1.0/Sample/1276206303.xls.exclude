@@ -1,0 +1,352 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet">
+ <x:ExcelWorkbook>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <ss:Styles>
+  <ss:Style ss:ID="Default">
+   <ss:Alignment ss:Horizontal="Automatic" ss:Rotate="0.0" ss:Vertical="Bottom"
+    ss:ReadingOrder="Context"/>
+   <ss:Borders>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11" ss:Color="Automatic" ss:Bold="0"
+    ss:Italic="0" ss:Underline="None"/>
+   <ss:Interior ss:Color="Automatic" ss:Pattern="None"/>
+   <ss:NumberFormat ss:Format="General"/>
+   <ss:Protection ss:Protected="1"/>
+  </ss:Style>
+  <ss:Style ss:ID="wc0AB3590000000000">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+  </ss:Style>
+  <ss:Style ss:ID="wc0AB35A0000000000">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+   <ss:NumberFormat ss:Format="yyyy/mm/dd"/>
+  </ss:Style>
+  <ss:Style ss:ID="wc0AB35B0000000000">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+   <ss:NumberFormat ss:Format="dd-mmm"/>
+  </ss:Style>
+  <ss:Style ss:ID="mc0AB358000AB35800">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+  </ss:Style>
+ </ss:Styles>
+ <c:ComponentOptions>
+  <c:Label>
+   <c:Caption>Microsoft Office 电子表格</c:Caption>
+  </c:Label>
+  <c:MaxHeight>80%</c:MaxHeight>
+  <c:MaxWidth>80%</c:MaxWidth>
+  <c:NextSheetNumber>4</c:NextSheetNumber>
+ </c:ComponentOptions>
+ <x:WorkbookOptions>
+  <c:OWCVersion>12.0.0.4518         </c:OWCVersion>
+ </x:WorkbookOptions>
+ <ss:Worksheet ss:Name="Sheet1">
+  <x:WorksheetOptions>
+   <x:Selected/>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1:R1C15</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="6"
+   ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+   <ss:Row>
+    <ss:Cell ss:MergeAcross="14" ss:StyleID="mc0AB358000AB35800">
+     <ss:Data ss:Type="String">分析任务单</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">监测项</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">样品编号</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">采样点</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">采样时间</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">执行标准</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">标准值</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">接样时间</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">样品类型</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">样品性状</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">项目名称</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">项目负责人</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">紧急程度</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">分析指标</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">是否走绿色通道</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">备注</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">pH值</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">水150820001</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">治理设施进口1-1</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">GB8978-1996《污水综合排放标准》表4一级标准（其他排污单位）</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35B0000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">6-9</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime" x:Ticked="1">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">废水</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">灰浑</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">污水厂监督监测</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">柏云刚</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">一般</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">(总)砷,pH值,氨氮,动植物油类,粪大肠菌群,镉,汞,化学需氧量,六价铬,铅,色度,石油类,水温,五日生化需氧量,悬浮物,阴离子表面活性剂,总氮,总铬,总磷,</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">否</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000"/>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">pH值</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">水150820002</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">治理设施进口1-2</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">GB8978-1996《污水综合排放标准》表4一级标准（其他排污单位）</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35B0000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">6-9</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime" x:Ticked="1">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">废水</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">灰浑</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">污水厂监督监测</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">柏云刚</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">一般</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">(总)砷,pH值,氨氮,动植物油类,粪大肠菌群,镉,汞,化学需氧量,六价铬,铅,色度,石油类,水温,五日生化需氧量,悬浮物,阴离子表面活性剂,总氮,总铬,总磷,</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">否</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000"/>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">化学需氧量</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">水150820006</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">治理设施出口1-4</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">GB8978-1996《污水综合排放标准》表4一级标准（其他排污单位）</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime" x:Ticked="1">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">废水</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">灰浑</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">污水厂监督监测</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">柏云刚</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">一般</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">(总)砷,pH值,氨氮,动植物油类,粪大肠菌群,镉,汞,化学需氧量,六价铬,铅,色度,石油类,水温,五日生化需氧量,悬浮物,阴离子表面活性剂,总氮,总铬,总磷,</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">否</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000"/>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">化学需氧量</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">水150820007</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">治理设施出口1-4平行</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String">GB8978-1996《污水综合排放标准》表4一级标准（其他排污单位）</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">100</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB35A0000000000">
+     <ss:Data ss:Type="DateTime" x:Ticked="1">2015-08-20</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">废水</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">灰浑</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">污水厂监督监测</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">柏云刚</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">一般</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">(总)砷,pH值,氨氮,动植物油类,粪大肠菌群,镉,汞,化学需氧量,六价铬,铅,色度,石油类,水温,五日生化需氧量,悬浮物,阴离子表面活性剂,总氮,总铬,总磷,</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000">
+     <ss:Data ss:Type="String" x:Ticked="1">否</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0AB3590000000000"/>
+   </ss:Row>
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet2">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet3">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+</ss:Workbook>

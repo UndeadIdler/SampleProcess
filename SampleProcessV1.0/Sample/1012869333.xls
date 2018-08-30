@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<ss:Workbook xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:c="urn:schemas-microsoft-com:office:component:spreadsheet">
+ <x:ExcelWorkbook>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <ss:Styles>
+  <ss:Style ss:ID="Default">
+   <ss:Alignment ss:Horizontal="Automatic" ss:Rotate="0.0" ss:Vertical="Bottom"
+    ss:ReadingOrder="Context"/>
+   <ss:Borders>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11" ss:Color="Automatic" ss:Bold="0"
+    ss:Italic="0" ss:Underline="None"/>
+   <ss:Interior ss:Color="Automatic" ss:Pattern="None"/>
+   <ss:NumberFormat ss:Format="General"/>
+   <ss:Protection ss:Protected="1"/>
+  </ss:Style>
+  <ss:Style ss:ID="wc0A85B60000000000">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+  </ss:Style>
+  <ss:Style ss:ID="wc0A85B70000000000">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+   <ss:NumberFormat ss:Format="yyyy/mm/dd"/>
+  </ss:Style>
+  <ss:Style ss:ID="mc0A85B5000A85B500">
+   <ss:Alignment ss:Horizontal="Center"/>
+   <ss:Borders>
+    <ss:Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+    <ss:Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1.0"/>
+   </ss:Borders>
+   <ss:Font ss:FontName="宋体" ss:Size="11"/>
+   <ss:Interior/>
+  </ss:Style>
+ </ss:Styles>
+ <c:ComponentOptions>
+  <c:Label>
+   <c:Caption>Microsoft Office 电子表格</c:Caption>
+  </c:Label>
+  <c:MaxHeight>80%</c:MaxHeight>
+  <c:MaxWidth>80%</c:MaxWidth>
+  <c:NextSheetNumber>4</c:NextSheetNumber>
+ </c:ComponentOptions>
+ <x:WorkbookOptions>
+  <c:OWCVersion>12.0.0.4518         </c:OWCVersion>
+ </x:WorkbookOptions>
+ <ss:Worksheet ss:Name="Sheet1">
+  <x:WorksheetOptions>
+   <x:Selected/>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1:R1C15</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="3"
+   ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+   <ss:Row>
+    <ss:Cell ss:MergeAcross="14" ss:StyleID="mc0A85B5000A85B500">
+     <ss:Data ss:Type="String">分析任务单</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">监测项</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">样品编号</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">采样点</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">采样时间</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">执行标准</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">标准值</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">接样时间</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">样品类型</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">样品性状</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">项目名称</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">项目负责人</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">紧急程度</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">分析指标</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">是否走绿色通道</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">备注</ss:Data>
+    </ss:Cell>
+   </ss:Row>
+   <ss:Row>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">对-二甲苯</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="Number">5</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000"/>
+    <ss:Cell ss:StyleID="wc0A85B70000000000">
+     <ss:Data ss:Type="DateTime">2016-04-06</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000"/>
+    <ss:Cell ss:StyleID="wc0A85B60000000000"/>
+    <ss:Cell ss:StyleID="wc0A85B70000000000">
+     <ss:Data ss:Type="DateTime">2016-04-06</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">地表水</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000"/>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">太湖流域杭嘉湖地区地表水水质监测</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">管理员</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">一般</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000"/>
+    <ss:Cell ss:StyleID="wc0A85B60000000000">
+     <ss:Data ss:Type="String">否</ss:Data>
+    </ss:Cell>
+    <ss:Cell ss:StyleID="wc0A85B60000000000"/>
+   </ss:Row>
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet2">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+ <ss:Worksheet ss:Name="Sheet3">
+  <x:WorksheetOptions>
+   <x:ViewableRange>R1:R262144</x:ViewableRange>
+   <x:Selection>R1C1</x:Selection>
+   <x:TopRowVisible>0</x:TopRowVisible>
+   <x:LeftColumnVisible>0</x:LeftColumnVisible>
+   <x:ProtectContents>False</x:ProtectContents>
+  </x:WorksheetOptions>
+  <c:WorksheetOptions>
+  </c:WorksheetOptions>
+  <ss:Table ss:DefaultColumnWidth="54.0" ss:DefaultRowHeight="12.75">
+  </ss:Table>
+ </ss:Worksheet>
+</ss:Workbook>

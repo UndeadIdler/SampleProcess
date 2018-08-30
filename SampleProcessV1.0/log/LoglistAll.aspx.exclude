@@ -1,0 +1,124 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/QueryMasterPage.master" AutoEventWireup="true"
+    CodeFile="LoglistAll.aspx.cs" Inherits="log_LogListAll" Title="Untitled Page" StylesheetTheme="Default" %>
+
+<%@ Register Assembly="System.Web.Extensions, Version=1.0.61025.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI" TagPrefix="asp" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+
+    <script language="javascript" type="text/javascript" src="../js/position.js"></script>
+        <script language="javascript" type="text/javascript" src="../js/cal/WdatePicker.js"></script>
+
+    <%--<script language="javascript" type="text/javascript" src="../js/cal/WdatePicker.js" ></script>--%>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
+        <ProgressTemplate>
+            <table style="width: 321px">
+                <tr>
+                    <td style="height: 7px" colspan="3">
+                        <span style="font-size: 10pt">
+                            <img src="../Images/minipro.gif" />通讯中，请稍等....</span>
+                    </td>
+                </tr>
+            </table>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+        <table class="container" width="90%">
+                <tbody>
+                    <tr>
+                        <td style="height: 4px"><span style="font-size: 10pt"><asp:Label ID="Label3" runat="server" Text="工作人员"></asp:Label></span></td>
+                        <td style="text-align: right; font-size: x-small;" class="titleList">
+                            <asp:TextBox ID="txts_name" runat="server" Width="80"></asp:TextBox>
+                        </td>
+                        <td style="height: 4px;">
+                            <span style="font-size: 10pt"><asp:Label ID="Label4" runat="server" Text="工作内容"></asp:Label></span>
+                        </td>
+                        <td style="height: 4px" class="Middle"><asp:TextBox ID="txts_ulog" runat="server" CssClass="mTextBox"></asp:TextBox></td>
+                        <td style="text-align: right">
+                            <span style="font-size: 10pt">时间</span>
+                        </td>
+                        <td class="ctrlList">
+                            <asp:TextBox ID="txts_time1" runat="server" CssClass="mTextBox" Width="100"></asp:TextBox>
+                        </td>
+                        <td style="height: 4px" class="Middle">
+                        <asp:TextBox ID="txts_time2" runat="server" CssClass="mTextBox" Width="100"></asp:TextBox>
+                        </td>
+                        <td>
+                            <asp:Button ID="btn_query" runat="server" Text="查 询" OnClick="btn_query_Click" CssClass="mButton" Width="60" />
+                        </td>
+                        <td style="width: 50px">
+                            <asp:Button ID="Button1" OnClick="btn_Add_Click" runat="server" CssClass="btn" Text="添 加" Width="60" />
+                        </td>                        
+                    </tr>
+                </tbody>
+            </table>
+            <asp:GridView ID="grdvw_List" runat="server" CssClass="mGridView" OnPageIndexChanging="grdvw_List_PageIndexChanging"
+                OnRowEditing="grdvw_List_RowEditing" OnRowCreated="grdvw_List_RowCreated" AllowPaging="true" PageSize="20">
+                <Columns>
+                    <asp:TemplateField HeaderText="序号">
+                        <ItemTemplate>
+                            <asp:Label ID="autoid" runat="server" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                    <asp:BoundField></asp:BoundField>
+                    <asp:BoundField></asp:BoundField>
+                </Columns>
+            </asp:GridView>            
+        </ContentTemplate>
+    </asp:UpdatePanel>
+    <div class="mLayer" style="left: 223px; top: 200px; width: 500px; height: 250px;
+        display: none;" id="detail">
+        <asp:UpdateProgress ID="UpdateProgress2" runat="server" AssociatedUpdatePanelID="UpdatePanel2">
+            <ProgressTemplate>
+                <table style="width: 321px">
+                    <tr>
+                        <td style="height: 7px" colspan="3">
+                            <span style="font-size: 10pt">
+                                <img src="../Images/minipro.gif" />通讯中，请稍等....</span>
+                        </td>
+                    </tr>
+                </table>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+        <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+            <ContentTemplate>
+                <table style="width: 500px">
+                    <tbody>
+                        <tr>
+                            <td style="height: 4px; text-align: left" class="float_Padding" colspan="2">
+                                <asp:Label ID="lbl_Type" runat="server" Text="Label"></asp:Label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px" class="titleList">
+                                <asp:Label ID="Label2" runat="server" Text="工作人员：" CssClass="mLabel"></asp:Label>
+                            </td>
+                            <td style="width: 400px">
+                                <asp:TextBox ID="txt_name" runat="server" CssClass="mTextBox" ReadOnly="true" Width="98%"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px" class="titleList">
+                                <asp:Label ID="Label1" runat="server" Text="工作内容：" CssClass="mLabel"></asp:Label>
+                            </td>
+                            <td style="width: 400px">
+                                <asp:TextBox ID="txt_ulog" runat="server" CssClass="mTextBox" TextMode="MultiLine"
+                                    Height="200" Width="98%"></asp:TextBox>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td class="float_Padding" colspan="2" align="center">
+                                <asp:Button ID="btn_Cancel" OnClick="btn_Cancel_Click" runat="server" Text="取消" CssClass="mButton">
+                                </asp:Button>
+                                <asp:Button ID="btn_OK" OnClick="btn_OK_Click" runat="server" Text="确定" CssClass="mButton">
+                                </asp:Button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </ContentTemplate>           
+        </asp:UpdatePanel>
+    </div>
+</asp:Content>

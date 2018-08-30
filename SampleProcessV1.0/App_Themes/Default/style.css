@@ -1,0 +1,348 @@
+a:link {
+	color: #092978;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited {
+	color: #092978;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #990000;
+	border: #C2DAFE;
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+
+td {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+body {
+    margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	FONT-SIZE: 12px;
+	MARGIN: 0px;
+	COLOR: black;
+	LINE-HEIGHT: 150%;
+	FONT-FAMILY: 'Lucida Grande','Lucida Sans Unicode','宋体','新宋体',arial,verdana,sans-serif;
+	TEXT-ALIGN: center;
+	background-color: white;
+	background-image: url(../images/dq_body_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+}
+.Textbg_style { /*文本框背景样式*/
+	line-height: 22px;
+	background-image: url(../images/text_bg.jpg);
+	background-repeat: repeat-x;
+	border-top-color: #8AC6EF;
+	border-right-color: #8AC6EF;
+	border-bottom-color: #8AC6EF;
+	border-left-color: #8AC6EF;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	font-size: 12px;
+	color: #0A6EAE;
+	height: 20px;
+}
+
+html{
+	scrollbar-face-color: #A0C6E5; 
+	scrollbar-shadow-color: #3872B4; 
+	scrollbar-highlight-color: #E8ECF7; 
+	scrollbar-3dlight-color: #DBEAF5; 
+	scrollbar-darkshadow-color: #A0C6E5; 
+	scrollbar-track-color: #DBEAF5; 
+	scrollbar-arrow-color: #68A1DF; 
+}.buttonstyle {
+	BORDER-BOTTOM: #666b52 1px solid;
+	BORDER-LEFT: #666b52 1px solid;
+	BORDER-RIGHT: #666b52 1px solid;
+	BORDER-TOP: #666b53 1px solid;
+	COLOR: #000000;
+	FONT-SIZE: 9pt;
+	font-family: "宋体";
+	text-decoration: none;
+	background-image: url(../images/images/input.gif);
+	text-align: center;
+	cursor:hand;
+}
+
+.bgwhitecenter {
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.bgcenter {
+	background-color: #DBEAF5;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #A0C6E5;
+
+
+}
+.txtBox {
+	border: 1px solid #000000;
+
+
+}
+.txtBoxnoborder {
+	background-color: #FFFFFF;
+	border: none;
+	font-size: 12px;
+}
+
+.title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../images/images/ball.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-color: #A0C6E5;
+}
+
+.title2 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-image: url(../images/images/ball.gif);
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	background-color: #00C6E5;
+}
+.bgwhiteleft{
+	text-align: left;
+	line-height:20px;
+	background-color: #FFFFFF;
+
+}
+.bgwhiteright{
+	text-align: right;
+	background-color: #FFFFFF;
+
+}
+.top {
+	background-image: url(../images/images/title.gif);
+	background-repeat: no-repeat;
+	padding-left: 56px;
+	font-weight: bold;
+	color: #476076;
+	line-height: 41px;
+	background-position: left center;
+	vertical-align: middle;
+}
+.bgblueleft {
+	background-color: #A0C6E5;
+	text-align: left;
+
+}
+.bgbluecenter {
+	background-color: #A0C6E5;
+	text-align: center;
+}
+.divStyle {
+	SCROLLBAR-FACE-COLOR: #A5C7E7; 
+	Z-INDEX: 10; 
+	OVERFLOW: auto; 
+	overflow-y:hidden;
+	WIDTH: 830px; 
+	SCROLLBAR-SHADOW-COLOR: #E0E0E0; 
+	SCROLLBAR-3DLIGHT-COLOR: #E0E0E0; 
+	SCROLLBAR-ARROW-COLOR: #E0E0E0; 
+	SCROLLBAR-TRACK-COLOR: #E0E0E0; 
+	SCROLLBAR-DARKSHADOW-COLOR: #E0E0E0; 
+	height:auto; 
+} 
+
+.text_2{    /*灰色文字文本框边上*/
+	font-size: 12px;
+	line-height: 150%;
+	color: #8D8B8E;
+}
+	.A_I_IndexNavigation_ButtonLeft{/*以下三个构成导航栏按钮*/
+		background: url("../images/IndexNavigation/left1.jpg") transparent no-repeat;
+		padding: 0px 10px 0px 0px;
+		width:10px;
+		height:33px;
+		cursor:hand;
+	}
+	.A_I_IndexNavigation_ButtonBack{/*见上*/
+		background: url("../images/IndexNavigation/back1.jpg") transparent repeat-x;
+		height:33px;
+		padding: 3px 0px 0px 2px;
+		cursor:hand;		
+		color:#FFFFFF;		
+		font-size:12px;
+	}
+	.A_I_IndexNavigation_ButtonRight{/*见上*/
+		background: url("../images/IndexNavigation/right1.jpg") transparent no-repeat;
+		padding: 0px 13px 0px 0px;
+		height:33px;
+		cursor:hand;
+	}
+
+.Butt_Y{  /*大的箱子按钮样式以下为分别三个*/
+       height:26px;
+	   width:100%;
+	     }
+.Butt1_left{   /*左边按钮样式*/
+	width:12px;
+	line-height: 26px;
+	background-image: url(../images/leftmenu_l.jpg);
+	background-repeat: no-repeat;
+}
+.Butt1_back{   /*中间按钮样式*/
+	line-height: 26px;
+	background-image: url(../images/leftmenu_b.jpg);
+	background-repeat: repeat-x;
+	font-size: 12px;
+	color: #000000;
+	cursor:hand;
+	text-align: center;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+.Butt1_right{   /*右边按钮样式*/
+	line-height: 26px;
+	width:12px;
+	background-image: url(../images/leftmenu_r.jpg);
+	background-repeat: no-repeat;
+}
+
+.Butt2_left{   /*左边按钮样式*/
+	line-height: 26px;
+	width:12px;
+	background-image: url(../images/leftmenu2_l.jpg);
+	background-repeat: no-repeat;
+}
+.Butt2_back{   /*中间按钮样式*/
+	line-height: 26px;
+	background-image: url(../images/leftmenu2_b.jpg);
+	background-repeat: repeat-x;
+	font-size: 12px;
+	color: #969696;
+	cursor:hand;
+	text-align: center;
+}
+.Butt2_right{   /*右边按钮样式*/
+	line-height: 26px;
+	width:12px;
+	background-image: url(../images/leftmenu2_r.jpg);
+	background-repeat: no-repeat;
+}
+.text_foot{    /*页面脚部文字文本框*/
+	font-size: 12px;
+	line-height: 150%;
+	color: #ffffff;
+}
+.UnSelect{    /*一级菜单按钮样式1*/
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	CURSOR: hand;
+	PADDING-TOP: 3px;
+	font-weight:bolder;
+	color:#666666;
+	background-image: url(../images/butt_1.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #666666;
+	}
+.buttonSelect{       /*一级菜单按钮样式2*/
+	PADDING-RIGHT: 3px;
+	PADDING-LEFT: 3px;
+	CURSOR: hand;
+	PADDING-TOP: 3px;
+	font-weight:bolder;
+	color:#FFFFFF;
+	background-image: url(../images/butt_2.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #666666;
+	}
+	.G_I_BoxTable_BtnLeft{/*箱子按钮左部分*/
+		padding: 0px 0px 0px 12px;
+		background: transparent url(../images/btnYellowL.gif) no-repeat;
+		height: 21px;
+	}
+
+	.G_I_BoxTable_BtnBack{/*箱子按钮背景*/
+		padding: 1px 0px 0px 0px;
+		background: transparent url(../images/btnYellowB.gif) repeat-x;
+		text-align:center;
+	}
+	.G_I_BoxTable_BtnRight{	/*箱子按钮右部分*/
+		padding: 0px 11px 0px 0px;
+		background: transparent url(../images/btnYellowR.gif) no-repeat;
+		height: 21px;
+	}
+	.G_I_BoxTable_BtnLeft2{/*箱子按钮2左部分*/
+		padding: 0px 0px 0px 12px;
+		background: transparent url(../images/btnBlueL.gif) no-repeat;
+		height: 21px;
+	}
+	.G_I_BoxTable_BtnBack2{/*箱子按钮2背景*/
+		padding: 1px 0px 0px 0px;
+		background: transparent url(../images/btnBlueB.gif) repeat-x;
+	}
+	.G_I_BoxTable_BtnRight2{/*箱子按钮2右部分*/
+		padding: 0px 12px 0px 0px;
+		background: transparent url(../images/btnBlueR.gif) no-repeat;
+		height: 21px;
+	}
+.buttonOne {
+	BORDER-BOTTOM: #666b52 1px solid;
+	BORDER-LEFT: #666b52 1px solid;
+	BORDER-RIGHT: #666b52 1px solid;
+	BORDER-TOP: #666b53 1px solid;
+	COLOR: #000000;
+	FONT-SIZE: 9pt;
+	font-family: "宋体";
+	text-decoration: none;
+	background-image: url(../images/b_204.gif);
+	text-align: center;
+	cursor:hand;
+}
+	.Right_idbg{
+	background-image: url(../images/message.gif);
+	background-repeat: no-repeat;
+	height:217;   
+   }
+   #nav02 { background:url(../images/nav02.jpg) no-repeat; width:140px; height:32px; display:block;}
+ #nav02_over { background:url(../images/nav022.jpg) no-repeat; width:140px; height:32px; display:block;}
+ #nav02:hover {  background:url(../images/nav0222.jpg) no-repeat;}
+ #nav02_over:hover {  background:url(../images/nav0222.jpg) no-repeat;}
+ 
+ #nav03 { background:url(../images/nav03.jpg) no-repeat; width:140px; height:32px; display:block;}
+ #nav03_over { background:url(../images/nav033.jpg) no-repeat; width:140px; height:32px; display:block;}
+ #nav03:hover { background:url(../images/nav0333.jpg) no-repeat;}
+ #nav03_over:hover { background:url(../images/nav0333.jpg) no-repeat;}
+ 
+ #nav04 { background:url(../images/nav04.jpg) no-repeat; width:140px; height:32px; display:block;}
+ #nav04_over { background:url(../images/nav044.jpg) no-repeat; width:140px; height:32px; display:block;}
+ #nav04:hover{ background:url(../images/nav0444.jpg) no-repeat;}
+ #nav04_over:hover{ background:url(../images/nav0444.jpg) no-repeat;}
+ 
+ #nav05 { background:url(../images/nav05.jpg) no-repeat; width:150px; height:32px; display:block;}
+ #nav05_over { background:url(../images/nav055.jpg) no-repeat; width:150px; height:32px; display:block;}
+ #nav05:hover{ background:url(../images/nav0555.jpg) no-repeat;}
+ #nav05_over:hover{ background:url(../images/nav0555.jpg) no-repeat;} 
+
